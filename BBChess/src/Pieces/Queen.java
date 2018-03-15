@@ -1,16 +1,11 @@
 package Pieces;
 
-
-
-public class Pawn extends Piece{
-	
-	
-	public Pawn(String pos, String color) {
+public class Queen extends Piece{
+	public Queen(String pos, String color) {
 		super(pos, color);
 	}
 
 	public Piece getPiece() {
-
 		return this;
 	}
 

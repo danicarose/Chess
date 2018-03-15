@@ -1,11 +1,7 @@
 package Pieces;
 
-
-
-public class Pawn extends Piece{
-	
-	
-	public Pawn(String pos, String color) {
+public class Knight extends Piece{
+	public Knight(String pos, String color) {
 		super(pos, color);
 	}
 
@@ -35,5 +31,4 @@ public class Pawn extends Piece{
 	public void setRank() {
 
 	}
-
 }

@@ -1,21 +1,17 @@
 package Pieces;
 
+public class King extends Piece{
 
-
-public class Pawn extends Piece{
-	
-	
-	public Pawn(String pos, String color) {
+	public King(String pos, String color) {
 		super(pos, color);
-	}
-
-	public Piece getPiece() {
-
-		return this;
 	}
 
 	public boolean legalPath(int startFile, int startRank, int destFile, int destRank) {
 		return false;
+	}
+
+	public Piece getPiece() {
+		return this;
 	}
 
 	public int getFile() {
@@ -35,5 +31,4 @@ public class Pawn extends Piece{
 	public void setRank() {
 
 	}
-
 }

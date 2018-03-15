@@ -5,10 +5,10 @@ import board.Color;
 public abstract class Piece {
 
 	public String pos;
-	public Color color;
+	public String color;
 	
 	
-	public Piece(String pos, Color color) {
+	public Piece(String pos, String color) {
 		this.pos = pos;
 		this.color=color;
 	}

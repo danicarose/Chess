@@ -2,7 +2,7 @@ package board;
 
 public class Cell {
 	String position;
-	String name;
+	String name; 
 	boolean hasPiece;
 	
 	//cell constructor 

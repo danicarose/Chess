@@ -1,16 +1,12 @@
 package Pieces;
 
+public class Rook extends Piece{
 
-
-public class Pawn extends Piece{
-	
-	
-	public Pawn(String pos, String color) {
+	public Rook(String pos, String color) {
 		super(pos, color);
 	}
 
 	public Piece getPiece() {
-
 		return this;
 	}
 
